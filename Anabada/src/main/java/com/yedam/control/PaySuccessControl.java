@@ -19,7 +19,7 @@ import com.yedam.service.PurchaseServiceImpl;
 import com.yedam.vo.MemberVO;
 
 public class PaySuccessControl implements Control {
-    private static final String SECRET_KEY = "test_sk_E92LAa5PVb9XnklRvJmB37YmpXyJ";
+    private static final String SECRET_KEY = "";
 
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
