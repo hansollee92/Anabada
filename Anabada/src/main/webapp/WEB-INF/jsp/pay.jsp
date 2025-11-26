@@ -40,7 +40,7 @@
 <script>
   (function(){
     const ctx = '<c:out value="${ctx}"/>';
-    const tossPayments = TossPayments('test_ck_LkKEypNArWd4MlKE1v1z8lmeaxYG');
+    const tossPayments = TossPayments('');
 
     // 서버에서 내려준 값
     const orderName     = '<c:out value="${PrdName}"/>';
